@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+h1{
+  font-family: consolas, monospace;
+  font-size: 55px;
+  font-weight: bold;
+  color: #691E06;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+}
+
+.header{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#gameContainer{
+  width: 675px;
+  height: 520px;
+  background-image: linear-gradient(to right top, #ca4b00, #d75904, #e56709, #f2760f, #ff8415);
+  border: 4px solid black;
+  border-radius: 30px;
+  position: absolute;
+}
+
+.textClass{
+  font-family: 'VT323', monospace;
+  font-size: 50px;
+  color: white;
+}
+
+.textContainer{
+  margin-left: 23%;
+  padding-bottom: 3%;
+}
+
+.gameBtn{
+  width: 120px;
+  height: 50px;
+  border: 4px solid whitesmoke;
+  border-radius: 30px;
+  font-family: consolas, monospace;
+  font-size: 20px;
+  background-color: #8F250C;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+.space{
+  width: 8px;
+  height: auto;
+  display: inline-block;
+}
+
+#btnContainer{
+  display: flex;
+  justify-content: center;
+  
+}
+
+.proyectTitle{
+  font-family: 'Cedarville Cursive', cursive;
+  font-size: 50px;
+  position: relative;
+  margin-top: 600px;
+}
