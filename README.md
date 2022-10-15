@@ -1,7 +1,7 @@
 # rock-paper-scissors
 
 -- Description --
-A simple Rock, Paper or Scissors game between a single player and a computer.
+A Rock, Paper or Scissors game between a single player and a computer.
 
 -- Tools --
 HTML, CSS and Javascript
